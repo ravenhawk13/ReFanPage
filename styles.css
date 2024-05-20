@@ -1,0 +1,89 @@
+/* reset styles */
+html {
+  font-size: 16px;
+  color: white;
+}
+a, article, body, div, figcaption, figure, footer, header, h1, 
+h2, h3, img, li, nav, p, section, ul {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+ background-image: url(media/re4b.jpeg);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0;
+ padding: 0;
+ font-family: "Baskerville Old Face";
+}
+header {
+ margin: 0 auto;
+ max-width: 80%;
+ padding: 1em;
+}
+.logo {
+ display: block;
+ max-width: 100%;
+ height: auto;
+ margin: 0 auto;
+}
+nav.sitenavigation {
+ text-align: center;
+}
+nav.sitenavigation ul {
+ list-style-type: none;
+ padding: 0;
+ background-color: rgba(0, 0, 0, 0.9);
+}
+nav.sitenavigation li {
+ font-family: "Times New Roman", sans-serif;
+ font-size: 30px;
+ display: inline-block;
+ margin: 0.3em 10%;
+
+}
+nav.sitenavigation a {
+ text-decoration: none;
+ color: #f17d52;
+}
+article {
+   font-family: "Times New Roman", sans-serif;
+ padding: 1em;
+ margin: 0 auto;
+ max-width: 80%;
+ background-color: rgba(0, 0, 0, 0.9);
+}
+article table {
+ width: 100%;
+ margin: 1em 0;
+}
+article table img {
+ width: 250px;
+ height: 10em;
+}
+article th {
+ background-color: #8B0000;
+ border: 1px solid white;
+}
+article table td {
+ border: 1px solid grey;
+ padding: 1em; /* add this rule */
+}
+article td {
+ font-size: 1.3em;
+ text-align: center;
+}
+footer  {
+ padding: 1em;
+ margin: 0 auto;
+ max-width: 80%;
+ color: white;
+ background-color: rgba(0, 0, 0, 0.9);
+}
+footer a{
+ text-decoration: none;
+ color: #4287f5;
+}
